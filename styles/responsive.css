@@ -1,0 +1,59 @@
+/*-------------------RESPONSIVE-------------------*/
+/*-------------------SMALL DEVICES-------------------*/
+@media screen and (max-width: 576px) {
+
+    .navbar,
+    .nav-links,
+    .teams {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-links {
+        margin-top: 20px;
+    }
+
+    .nav-item {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .banner-title {
+        font-size: 3rem;
+    }
+
+    .banner-image {
+        margin-bottom: 30px;
+    }
+    .team-img-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .features {
+        margin-left: 20px;
+    }
+}
+
+/*-------------------MEDIUM DEVICES-------------------*/
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    .navbar {
+        padding: 0 20px;
+    }
+    .nav-links {
+        margin-top: 0;
+    }
+    .nav-item {
+        margin-right: 20px;
+    }
+    .banner-title {
+        font-size: 3.5rem;
+    }
+    .banner-image {
+        margin-bottom: 40px;
+    }
+     .teams {
+        flex-direction: column;
+     }
+    .features {
+        margin-left: 50px auto;
+    }
+}
