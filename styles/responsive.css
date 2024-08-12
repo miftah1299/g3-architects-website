@@ -4,7 +4,8 @@
 
     .navbar,
     .nav-links,
-    .teams {
+    .teams, 
+    .features {
         flex-direction: column;
         align-items: flex-start;
     }
@@ -43,6 +44,10 @@
     .features {
         margin-left: 20px;
     }
+    #exp-badge {
+        margin-top: 20px;
+        margin-left: 20px;
+    }
 }
 
 
@@ -70,7 +75,7 @@
         margin-bottom: 40px;
     }
 
-    .teams {
+    .teams, .features {
         flex-direction: column;
     }
     .sponsor-logos, .facts-container {
@@ -81,5 +86,9 @@
 
     .features {
         margin-left: 50px auto;
+    }
+    #exp-badge {
+        margin-top: 20px;
+        margin-left: 20px;
     }
 }
