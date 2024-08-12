@@ -157,3 +157,17 @@ main > section {
 .fact-description {
     max-width: 540px;
 }
+
+/*------------------- SPONSORS SECTION -------------------*/
+.sponsor-info {
+    max-width: 540px;
+    margin: 50px auto;
+    text-align: center;
+}
+.sponsor-logos {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.sponsor-logos img {
+    filter: grayscale(100%);
+}
