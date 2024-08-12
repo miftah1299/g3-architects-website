@@ -25,34 +25,60 @@
     .banner-image {
         margin-bottom: 30px;
     }
-    .team-img-container {
+
+    .team-img-container,
+    .facts-container,
+    .sponsor-logos {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .facts-container {
+        justify-items: center;
+        gap: 24px;
+    }
+    .sponsor-logos {
+        justify-items: center;
+        gap: 50px;
     }
     .features {
         margin-left: 20px;
     }
 }
 
+
+
+
 /*-------------------MEDIUM DEVICES-------------------*/
 @media screen and (min-width: 576px) and (max-width: 768px) {
     .navbar {
         padding: 0 20px;
     }
+
     .nav-links {
         margin-top: 0;
     }
+
     .nav-item {
         margin-right: 20px;
     }
+
     .banner-title {
         font-size: 3.5rem;
     }
+
     .banner-image {
         margin-bottom: 40px;
     }
-     .teams {
+
+    .teams {
         flex-direction: column;
-     }
+    }
+    .sponsor-logos, .facts-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
+        justify-items: center;
+    }
+
     .features {
         margin-left: 50px auto;
     }
