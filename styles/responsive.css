@@ -4,7 +4,7 @@
 
     .navbar,
     .nav-links,
-    .teams, 
+    .teams,
     .features {
         flex-direction: column;
         align-items: flex-start;
@@ -37,13 +37,16 @@
         justify-items: center;
         gap: 24px;
     }
+
     .sponsor-logos {
         justify-items: center;
         gap: 50px;
     }
+
     .features {
         margin-left: 20px;
     }
+
     #exp-badge {
         margin-top: 20px;
         margin-left: 20px;
@@ -75,10 +78,13 @@
         margin-bottom: 40px;
     }
 
-    .teams, .features {
+    .teams,
+    .features {
         flex-direction: column;
     }
-    .sponsor-logos, .facts-container {
+
+    .sponsor-logos,
+    .facts-container {
         grid-template-columns: repeat(2, 1fr);
         gap: 50px;
         justify-items: center;
@@ -87,6 +93,7 @@
     .features {
         margin-left: 50px auto;
     }
+
     #exp-badge {
         margin-top: 20px;
         margin-left: 20px;
